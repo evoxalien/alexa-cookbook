@@ -23,7 +23,7 @@
  ```  
  **TIP:** Don't forget trailing commas!
    
-3. Save your interaction model and open your lambda function (located in `lambda/custom/index.js`). Copy the following brick of code and paste it into your lambda function in a new line after `line 50` (in between the `HowAreYouIntentHandler` and the `HelpIntentHandler`):
+3. Save your interaction model and open your lambda function (located in `lambda/custom/index.js`). Copy the following brick of code and paste it into your lambda function in a new line after `line 70` (in between the `HowAreYouIntentHandler` and the `HelpIntentHandler`):
 
 ```
 const BuyIntentHandler = {
